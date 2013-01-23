@@ -62,7 +62,7 @@ do
 	<title>$basename</title>
 	</head>
 	<body>
-	<img src=\"image/$IMG\" alt=\"$basename\" class=\"content\" />
+	<img src=\"image/$(basename $file)\" alt=\"$basename\" class=\"content\" />
 	</body>
 	</html>
 	" > $htmlname
